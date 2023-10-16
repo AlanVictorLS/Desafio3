@@ -229,3 +229,8 @@ h3::after{
     padding: 1px;
     margin: 4px;
 }
+#btn:hover{
+    cursor: pointer;
+    background-color: #29a55d;
+    color: black
+}
