@@ -151,7 +151,7 @@ aside{
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.74);
 }
 
-div{
+#video{
     background-color: var(--cor5);
     margin: 0px -20px;
     padding: 10px;
@@ -208,4 +208,22 @@ h3::after{
 }
 .luz::after{
     content: " \1F4A1";
+}
+
+#btn-sub{
+    display: flex;
+    justify-content: center;
+}
+#btn-sub p{
+    font-weight: bolder;
+    font-family: var(--fonte-destaque);
+}
+
+#btn p{
+    font-weight: bolder;
+}
+
+#box{
+    padding: 1px;
+    margin: 4px;
 }
