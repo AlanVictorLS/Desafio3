@@ -213,14 +213,16 @@ h3::after{
 #btn-sub{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 #btn-sub p{
     font-weight: bolder;
     font-family: var(--fonte-destaque);
 }
 
-#btn p{
-    font-weight: bolder;
+#btn {
+    width: auto;
+    height: 30px;
 }
 
 #box{
